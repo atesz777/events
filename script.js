@@ -8,7 +8,15 @@ $('.button2').click(() => {
 }
 )
 
-$('.button3').click(() => {
-    $('button').css('background', 'green')
+$('.button3').one('click', () => {
+    $('button').css('background', $('#input').val())
 }
 )
+
+
+
+
+
+
+
+
